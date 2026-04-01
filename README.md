@@ -1,8 +1,5 @@
 # Robust Multi-Source COVID-19 Detection in CT Images
 
-<p align="center">
-  <b>CVPR 2026 PHAROS Workshop — Multi-Source COVID-19 Detection Challenge</b>
-</p>
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Paper-PDF-red" alt="Paper"></a>
