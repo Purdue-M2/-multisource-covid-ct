@@ -1,0 +1,42 @@
+# Default training configuration
+# ─────────────────────────────────────────────
+
+# Model
+backbone: tf_efficientnet_b7
+num_sources: 4
+dropout: 0.3
+
+# Preprocessing
+num_slices: 8
+image_size: 256
+min_slices_per_scan: 5
+
+# Training
+gamma: 0.5          # source loss weight (sweep: 0.1, 0.2, 0.5, 1.0)
+epochs: 8
+batch_size: 10
+learning_rate: 1.0e-4
+weight_decay: 5.0e-4
+precision: amp       # mixed-precision training
+
+# Source distribution (training set)
+source_counts: [328, 330, 330, 234]
+
+# Augmentation
+augmentation:
+  horizontal_flip: 0.5
+  shift_scale_rotate:
+    shift_limit: 0.2
+    scale_limit: 0.2
+    rotate_limit: 30
+    p: 0.5
+  hue_sat_val:
+    limit: 20
+    p: 0.5
+  brightness_contrast:
+    limit: 0.2
+    p: 0.5
+  coarse_dropout:
+    max_holes: 8
+    hole_size: 32
+    p: 0.2
