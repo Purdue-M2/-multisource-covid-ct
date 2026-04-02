@@ -187,7 +187,7 @@ For a one-click end-to-end run, open **`MultiSource_COVID_CT.ipynb`** in Google 
 ## Citation
 
 ```bibtex
-@inproceedings{pritha2026multisource,
+@inproceedings{asmita2026multisource,
   title={Robust Multi-Source COVID-19 Detection in CT Images},
   author={Pritha, Asmita Yuki and Xu, Jason and Ding, Daniel and Li, Justin and Hou, Aryana and Wang, Xin and Hu, Shu},
   booktitle={Proceedings of the {IEEE/CVF} Conference on Computer
