@@ -190,7 +190,8 @@ For a one-click end-to-end run, open **`MultiSource_COVID_CT.ipynb`** in Google 
 @inproceedings{pritha2026multisource,
   title={Robust Multi-Source COVID-19 Detection in CT Images},
   author={Pritha, Asmita Yuki and Xu, Jason and Ding, Daniel and Li, Justin and Hou, Aryana and Wang, Xin and Hu, Shu},
-  booktitle={3rd Workshop on New Trends in AI-Generated Media and Security (AIMS) at the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  booktitle={Proceedings of the {IEEE/CVF} Conference on Computer
+             Vision and Pattern Recognition ({CVPR}) Workshop},
   year={2026}
 }
 ```
